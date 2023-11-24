@@ -1,0 +1,7 @@
+$font-weights: ("regular":400, "medium":500, "bold":700);
+
+@each $fw, $value in $font-weights{
+    .#{$fw}{
+        font-weight: $value;
+    }
+}

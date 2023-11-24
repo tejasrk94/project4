@@ -1,0 +1,467 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Merriweather Sans', sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth; }
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff; }
+
+.margin-top-10 {
+  margin-top: 10px; }
+
+.margin-top-20 {
+  margin-top: 20px; }
+
+.margin-top-30 {
+  margin-top: 30px; }
+
+.margin-top-40 {
+  margin-top: 40px; }
+
+.margin-top-50 {
+  margin-top: 50px; }
+
+.margin-top-60 {
+  margin-top: 60px; }
+
+.margin-top-70 {
+  margin-top: 70px; }
+
+.margin-top-80 {
+  margin-top: 80px; }
+
+.margin-top-90 {
+  margin-top: 90px; }
+
+.margin-top-100 {
+  margin-top: 100px; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.margin-bottom-40 {
+  margin-bottom: 40px; }
+
+.margin-bottom-50 {
+  margin-bottom: 50px; }
+
+.margin-bottom-60 {
+  margin-bottom: 60px; }
+
+.margin-bottom-70 {
+  margin-bottom: 70px; }
+
+.margin-bottom-80 {
+  margin-bottom: 80px; }
+
+.margin-bottom-90 {
+  margin-bottom: 90px; }
+
+.margin-bottom-100 {
+  margin-bottom: 100px; }
+
+.padding-top-10 {
+  padding-top: 10px; }
+
+.padding-top-20 {
+  padding-top: 20px; }
+
+.padding-top-30 {
+  padding-top: 30px; }
+
+.padding-top-40 {
+  padding-top: 40px; }
+
+.padding-top-50 {
+  padding-top: 50px; }
+
+.padding-top-60 {
+  padding-top: 60px; }
+
+.padding-top-70 {
+  padding-top: 70px; }
+
+.padding-top-80 {
+  padding-top: 80px; }
+
+.padding-top-90 {
+  padding-top: 90px; }
+
+.padding-top-100 {
+  padding-top: 100px; }
+
+.padding-bottom-10 {
+  padding-bottom: 10px; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px; }
+
+.padding-bottom-30 {
+  padding-bottom: 30px; }
+
+.padding-bottom-40 {
+  padding-bottom: 40px; }
+
+.padding-bottom-50 {
+  padding-bottom: 50px; }
+
+.padding-bottom-60 {
+  padding-bottom: 60px; }
+
+.padding-bottom-70 {
+  padding-bottom: 70px; }
+
+.padding-bottom-80 {
+  padding-bottom: 80px; }
+
+.padding-bottom-90 {
+  padding-bottom: 90px; }
+
+.padding-bottom-100 {
+  padding-bottom: 100px; }
+
+.regular {
+  font-weight: 400; }
+
+.medium {
+  font-weight: 500; }
+
+.bold {
+  font-weight: 700; }
+
+.btn-blue {
+  display: inline-block;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  background-color: #0355cc;
+  border: 1px solid #0355cc;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-top: 15px;
+  font-weight: 400;
+  cursor: pointer; }
+  .btn-blue:hover {
+    background-color: transparent;
+    border: 1px solid #0355cc;
+    color: #0355cc; }
+
+.btn-orange {
+  display: inline-block;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  background-color: #ff8a1d;
+  border: 1px solid #ff8a1d;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-top: 15px;
+  cursor: pointer; }
+  .btn-orange:hover {
+    background-color: transparent;
+    border: 1px solid #ff8a1d;
+    color: #ff8a1d; }
+
+.regular {
+  font-weight: 400; }
+
+.medium {
+  font-weight: 500; }
+
+.bold {
+  font-weight: 700; }
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+h1 {
+  font-size: 60px;
+  font-size: 3.75rem;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+h2 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+h3 {
+  font-size: 30px;
+  font-size: 1.875rem;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+h4 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+h5 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+h6 {
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+/*--------------------------------------------------------------
+# Hero Area Start
+--------------------------------------------------------------*/
+.hero_area {
+  position: relative;
+  background-color: #d1e3ff; }
+  .hero_area .header_section .container-fluid {
+    padding: 0 25px; }
+    .hero_area .header_section .container-fluid .contact_nav {
+      display: flex;
+      justify-content: space-between; }
+      .hero_area .header_section .container-fluid .contact_nav a:hover {
+        color: #ff8a1d;
+        text-decoration: none; }
+  .hero_area .header_section .header_top {
+    background: #000;
+    padding: 15px 0; }
+  .hero_area .header_section .header_bottom {
+    padding: 10px 0; }
+    .hero_area .header_section .header_bottom .custom-nav {
+      padding: 0; }
+      .hero_area .header_section .header_bottom .custom-nav .navbar-brand {
+        padding: 0;
+        margin: 0;
+        font-weight: 700;
+        font-size: 24px; }
+        .hero_area .header_section .header_bottom .custom-nav .navbar-brand span {
+          color: #0355cc;
+          text-transform: uppercase; }
+      .hero_area .header_section .header_bottom .custom-nav .collapse ul li a {
+        padding: 10px 25px;
+        text-align: center;
+        font-weight: 500; }
+        .hero_area .header_section .header_bottom .custom-nav .collapse ul li a.active {
+          font-weight: 600; }
+        .hero_area .header_section .header_bottom .custom-nav .collapse ul li a:hover {
+          color: #0355cc; }
+  .hero_area .slider_section .row {
+    display: flex;
+    align-items: center; }
+    .hero_area .slider_section .row .detail-box h2 {
+      font-weight: bold;
+      margin-bottom: 25px;
+      color: #0355cc; }
+    .hero_area .slider_section .row .detail-box a {
+      padding: 15px 45px;
+      background: #ff8a1d;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: 600;
+      text-transform: uppercase; }
+      .hero_area .slider_section .row .detail-box a:hover {
+        background-color: transparent;
+        border: 1px solid #ff8a1d;
+        color: #ff8a1d; }
+
+/*--------------------------------------------------------------
+# Hero Area End
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Feature Section Start
+--------------------------------------------------------------*/
+.feature_section {
+  transform: translateY(-50%); }
+  .feature_section .feature_container {
+    display: flex; }
+    .feature_section .feature_container .box {
+      padding: 45px;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+      background-color: #fff;
+      margin: 0 10px; }
+      .feature_section .feature_container .box i {
+        font-size: 90px;
+        color: #ff8a1d; }
+      .feature_section .feature_container .box h5 {
+        margin-top: 15px;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 0; }
+      .feature_section .feature_container .box:hover {
+        background-color: #ff8a1d;
+        color: #fff; }
+        .feature_section .feature_container .box:hover i {
+          color: #fff; }
+      .feature_section .feature_container .box.active {
+        background-color: #ff8a1d;
+        color: #fff; }
+        .feature_section .feature_container .box.active i {
+          color: #fff; }
+
+/*--------------------------------------------------------------
+# Feature Section End 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# About Section Start 
+--------------------------------------------------------------*/
+.about_section .row {
+  display: flex;
+  align-items: center; }
+  .about_section .row .details-box h3 {
+    font-weight: 600;
+    text-transform: uppercase; }
+
+/*--------------------------------------------------------------
+# About Section End 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Professional Section Start 
+--------------------------------------------------------------*/
+.professional_section .row {
+  display: flex;
+  align-items: center; }
+  .professional_section .row .details-box h3 {
+    font-weight: 600;
+    text-transform: uppercase; }
+
+/*--------------------------------------------------------------
+# Professional Section End 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Services Section Start 
+--------------------------------------------------------------*/
+.service_section h3 {
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.service_section .service_container {
+  display: flex; }
+  .service_section .service_container .service-box {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    padding: 25px 30px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .service_section .service_container .service-box i {
+      font-size: 90px;
+      color: #ff8a1d; }
+    .service_section .service_container .service-box h4 {
+      margin-top: 15px; }
+
+/*--------------------------------------------------------------
+# Services Section End 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Contact Section Start 
+--------------------------------------------------------------*/
+.contact_section .contact-form h3 {
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.contact_section .contact-form input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  outline: none;
+  padding-left: 20px; }
+
+/*--------------------------------------------------------------
+# Contact Section End 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Info Section Start 
+--------------------------------------------------------------*/
+.info_section {
+  background-color: #0a0f43; }
+  .info_section h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center; }
+  .info_section .info_items {
+    position: relative; }
+    .info_section .info_items::before {
+      content: "";
+      position: absolute;
+      width: 75%;
+      transform: translateX(-50%);
+      top: 40px;
+      height: 1px;
+      left: 50%;
+      background-color: #fff; }
+    .info_section .info_items .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .info_section .info_items .item p {
+        color: #fff;
+        padding-top: 20px; }
+      .info_section .info_items .item .img-box {
+        background: #0355cc;
+        color: #ffffff;
+        border-radius: 100%;
+        width: 80px;
+        display: flex;
+        height: 80px;
+        z-index: 1;
+        text-align: center;
+        line-height: 90px;
+        justify-content: center;
+        align-items: center; }
+        .info_section .info_items .item .img-box:hover {
+          background-color: #ff8a1d; }
+  .info_section .social-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .info_section .social-box .box {
+      background-color: #fff;
+      padding: 5px 15px; }
+      .info_section .social-box .box a i {
+        margin: 0 5px;
+        color: #0355cc; }
+
+/*--------------------------------------------------------------
+# Info Section End 
+--------------------------------------------------------------*/

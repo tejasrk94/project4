@@ -1,0 +1,404 @@
+@import "variable";
+@import "global";
+@import "layout";
+@import "typography";
+@import "functions";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+	@include font-size(60/16);
+}
+
+h2 {
+	@include font-size(40/16);
+}
+
+h3 {
+	@include font-size(30/16);
+}
+
+h4 {
+	@include font-size(24/16);
+}
+
+h5 {
+	@include font-size(18/16);
+}
+
+h6 {
+	@include font-size(16/16);
+}
+
+a{
+	color: $color-white;
+	text-decoration: none;
+}
+/*--------------------------------------------------------------
+# Hero Area Start
+--------------------------------------------------------------*/
+.hero_area {
+	position: relative;
+	background-color: $bg-light-blue;
+	.header_section{
+		.container-fluid{
+			padding:0 25px;
+
+			.contact_nav{
+				display: flex;
+    			justify-content: space-between;
+
+				a{
+					&:hover{
+						color:$secondary-color;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+
+		.header_top {
+			background: $color-black;
+			padding: 15px 0;	
+		}
+		.header_bottom{
+			padding: 10px 0;
+
+			.custom-nav{
+				padding: 0;
+				.navbar-brand{
+					padding: 0;
+					margin: 0;
+					font-weight: 700;
+					font-size: 24px;
+
+					span{
+						color: #0355cc;
+    					text-transform: uppercase;
+					}
+				}
+				.collapse{
+					ul{
+						li{
+							a{
+								padding: 10px 25px;
+    							text-align: center;
+								font-weight: 500;
+								&.active{
+									font-weight: 600;
+								}
+								&:hover{
+									color:$primary-color;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.slider_section {
+		.row{
+			display: flex;
+    		align-items: center;
+
+			.detail-box{
+				h2{
+					font-weight: bold;
+					margin-bottom: 25px;
+					color: #0355cc;
+				}
+				a{
+					padding: 15px 45px;
+					background: $secondary-color;
+					border-radius: 5px;
+					display: inline-block;
+					margin-top: 15px;
+					font-weight: 600;
+					text-transform: uppercase;
+
+					&:hover{
+						background-color: transparent;
+						border: 1px solid $secondary-color;
+						color: $secondary-color;
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+/*--------------------------------------------------------------
+# Hero Area End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Feature Section Start
+--------------------------------------------------------------*/
+.feature_section{
+	transform: translateY(-50%);
+
+	.feature_container{
+		display: flex;
+    	
+		.box{
+			padding: 45px;
+			box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			flex:1;
+			background-color: $color-white;
+			margin:0 10px;
+			i{
+				font-size: 90px;
+				color:$secondary-color;
+			}
+			h5{
+				margin-top: 15px;
+				font-size: 20px;
+				text-transform: uppercase;
+				margin-bottom: 0;
+			}
+			&:hover{
+				background-color: $secondary-color;
+				color: $color-white;
+				i{
+					color:$color-white;
+				}
+			}
+			&.active{
+				background-color: $secondary-color;
+				color:$color-white;
+				i{
+					color:$color-white;
+				}
+				
+			}
+			
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# Feature Section End 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# About Section Start 
+--------------------------------------------------------------*/
+.about_section{
+	.row{
+		display: flex;
+		align-items: center;
+
+		.details-box{
+			h3{
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+			// a{
+			// 	display: inline-block;
+			// 	font-family: 'Merriweather Sans', sans-serif;
+			// 	text-transform: uppercase;
+			// 	padding: 10px 45px;
+			// 	background-color: $primary-color;
+			// 	border: 1px solid $primary-color;
+			// 	border-radius: 5px;
+			// 	color: #ffffff;
+			// 	margin-top: 15px;
+			// 	&:hover{
+			// 		background-color: transparent;
+			// 		border: 1px solid $primary-color;
+			// 		color: $primary-color;
+			// 	}
+			// }
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# About Section End 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Professional Section Start 
+--------------------------------------------------------------*/
+.professional_section{
+	.row{
+		display: flex;
+		align-items: center;
+
+		.details-box{
+			h3{
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+			// a{
+			// 	display: inline-block;
+			// 	font-family: 'Merriweather Sans', sans-serif;
+			// 	text-transform: uppercase;
+			// 	padding: 10px 45px;
+			// 	background-color: $primary-color;
+			// 	border: 1px solid $primary-color;
+			// 	border-radius: 5px;
+			// 	color: #ffffff;
+			// 	margin-top: 15px;
+			// 	&:hover{
+			// 		background-color: transparent;
+			// 		border: 1px solid $primary-color;
+			// 		color: $primary-color;
+			// 	}
+			// }
+		}
+	}
+}
+/*--------------------------------------------------------------
+# Professional Section End 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Services Section Start 
+--------------------------------------------------------------*/
+.service_section{
+	h3{
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	.service_container{
+		display: flex;
+		
+		.service-box{
+			box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+			padding: 25px 30px;
+			margin: 0 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+
+			i{
+				font-size: 90px;
+				color:$secondary-color;
+			}
+			h4{
+				margin-top:15px;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# Services Section End 
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Contact Section Start 
+--------------------------------------------------------------*/
+.contact_section{
+	.contact-form{
+		h3{
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+		input{
+			width: 100%;
+			height: 50px;
+			border: none;
+			margin-bottom: 20px;
+			box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+			outline: none;
+			padding-left: 20px;
+		}
+
+	}
+}
+/*--------------------------------------------------------------
+# Contact Section End 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Info Section Start 
+--------------------------------------------------------------*/
+.info_section{
+	background-color: $footer-color;
+	
+	h3{
+		font-weight: 600;
+		text-transform: uppercase;
+		color:$color-white;
+		text-align: center;
+	}
+	.info_items{
+		position: relative;
+		&::before{
+			content: "";
+			position: absolute;
+			width: 75%;
+			transform: translateX(-50%);
+			top: 40px;
+			height: 1px;
+			left: 50%;
+			background-color: $color-white;
+		}
+		.item{
+			display: flex;
+    		flex-direction: column;
+			align-items: center;
+
+			p{
+				color: $color-white;
+				padding-top:20px;
+			}
+			.img-box{
+				background: #0355cc;
+				color: #ffffff;
+				border-radius: 100%;
+				width: 80px;
+				display: flex;
+				height: 80px;
+				z-index: 1;
+				text-align: center;
+				line-height: 90px;
+				justify-content: center;
+				align-items: center;
+
+				&:hover{
+					background-color: $secondary-color;
+				}
+			}
+		}
+	}
+	.social-box{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.box{
+			background-color: $color-white;
+			padding: 5px 15px;
+
+			
+			a{ 
+				i{
+					margin: 0 5px;
+    				color: #0355cc;
+				}
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# Info Section End 
+--------------------------------------------------------------*/

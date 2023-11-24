@@ -1,0 +1,35 @@
+// @for $i from 1 through 10{
+//     .margin-#{$i*10}{
+//         margin: 10*$i + px;
+//     }
+// }
+
+@mixin layoutPropertyGenerator($config){ // Names should be in camel case and it should be meaningfull    
+    @each $key,$conf in $config{ // 3 times
+        $type: map-get($conf,"type");
+        $placement: map-get($conf,"placement");
+        $iterations: map-get($conf,"iterations");
+        $i:1;
+        @while $i <= $iterations{
+            .#{$type}-#{$placement}-#{$i*10}{
+                #{$type}-#{$placement}: #{$i*10}px;
+            }
+            $i:$i+1;
+        }
+    }
+}
+
+@include layoutPropertyGenerator(
+    ( // parent map
+        1:("type":"margin","placement":"top", "iterations":10), // child map
+        2:("type":"margin","placement":"bottom", "iterations":10), 
+        3:("type":"padding","placement":"top", "iterations":10),
+        4:("type":"padding","placement":"bottom", "iterations":10),
+    )
+    );
+
+
+    // "margin":("placement":"top", "iterations":10),
+    // "margin":("placement":"bottom", "iterations":10),
+    // "padding":("placement":"top", "iterations":10),
+    // "padding":("placement":"bottom", "iterations":10),

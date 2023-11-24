@@ -1,0 +1,39 @@
+@import "functions";
+
+.btn-blue{
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    background-color: #0355cc;
+    border: 1px solid #0355cc;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-top: 15px;
+    font-weight: map-get($font-weights, "regular");
+    cursor: pointer;
+
+    &:hover{
+        background-color: transparent;
+        border: 1px solid $primary-color;
+        color: $primary-color;
+    }
+}
+.btn-orange{
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    background-color: $secondary-color;
+    border: 1px solid $secondary-color;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-top: 15px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: transparent;
+        border: 1px solid $secondary-color;
+        color: $secondary-color;
+    }
+}
